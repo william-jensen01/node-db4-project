@@ -1,0 +1,26 @@
+{
+  "name": "db4-project",
+  "version": "1.0.0",
+  "description": "Follow these steps to set up and work on your project:",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-jensen01/node-db4-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-jensen01/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/william-jensen01/node-db4-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.17",
+    "knex-cleaner": "^1.3.1",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.1"
+  }
+}
